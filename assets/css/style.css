@@ -1,86 +1,71 @@
 .instruction {
-	border: 2px solid black;
-	padding: 2%;
-	background-color: white; 
-	opacity: 0.6; 
-	font-family: 'Lobster', cursive, 'sans-serif'; 
-	color: brown;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: white; 
+    opacity: 0.6; 
+    font-family: 'Lobster', cursive, 'sans-serif'; 
+    color: brown;
 }
 
 .randomNumber {
-	border: 2px solid black;
-	padding: 3%;
-	background-color: white; 
-	opacity: 0.6; 
-	color: green;
-	font-size: 200%; 
-	font-family: 'Lobster', cursive, 'sans-serif'; 
+    border: 2px solid black;
+    padding: 3%;
+    background-color: white; 
+    opacity: 0.6; 
+    color: green;
+    font-size: 200%; 
+    font-family: 'Lobster', cursive, 'sans-serif'; 
 }
 
 .gems{
-    max-height: 2px !important;
-    max-width: 2px !important;s
+    max-height: 100px !important;
+    max-width: 100px !important;
+    
 
 }
     
  
 
 .totalWL { 
-	border: 2px solid black;
-	padding: 2%; 
-	background-color: white; 
-	opacity: 0.6; 
-	font-family: 'Lobster', cursive, 'sans-serif'; 
+    border: 2px solid black;
+    padding: 2%; 
+    background-color: white; 
+    opacity: 0.6; 
+    font-family: 'Lobster', cursive, 'sans-serif'; 
  }
 
  .totalScore {
- 	border: 2px solid black; 
- 	background-color: white; 
-	opacity: 0.6; 
-	font-family: 'Lobster', cursive, 'sans-serif'; 
-	color: brown;
+    border: 2px solid black; 
+    background-color: white; 
+    opacity: 0.6; 
+    font-family: 'Lobster', cursive, 'sans-serif'; 
+    color: brown;
 
  }
 
  .scoreDisplay {
- 	border: 2px solid black;
-	padding: 3%; 
-	background-color: white; 
-	opacity: 0.6; 
-	color: green;
-	font-size: 200%;
-	font-family: 'Lobster', cursive, 'sans-serif'; 
+    border: 2px solid black;
+    padding: 3%; 
+    background-color: white; 
+    opacity: 0.6; 
+    color: green;
+    font-size: 200%;
+    font-family: 'Lobster', cursive, 'sans-serif'; 
  }
 
  .wallpaper { 
-	background-image: url("../images/trolls.jpg");
-	background-size: 100%;
+    background-image: url("../images/trolls.jpg");
+    background-size: 100%;
  }
 
  .header { 
-	font-family: 'Lobster', cursive, 'sans-serif'; 
+    font-family: 'Lobster', cursive, 'sans-serif'; 
   }
 
   .wins, .losses { 
-	padding: 2%;
-	color: purple;
+    padding: 2%;
+    color: purple;
   }
 
 
 
-
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }

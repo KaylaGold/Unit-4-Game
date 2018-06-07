@@ -23,19 +23,19 @@ $(document).ready(function () {
 	//Calculating random number from 1-12 for all gems and displaying on HTML page. The random number displayed per gem is given by "value"
 	let gemOne = Math.floor(Math.random() * 12) + 1;
 	console.log("Gem 1: " + gemOne);
-	$("#img1").html("<img src=" + "./assets/images/redcrystal.jpg" + " value=" + gemOne + "/>");
+	$("#img1").html("<img src=" + "./assets/images/redcrystal2.png" + " value=" + gemOne + ">");
 
 	let gemTwo = Math.floor(Math.random() * 12) + 1;
 	console.log("Gem 2: " + gemTwo);
-	$("#img2").html("<img src=" + "./assets/images/emerald.jpeg" + " value=" + gemTwo + "/>");
+	$("#img2").html("<img src=" + "./assets/images/emerald2.png" + " value=" + gemTwo + ">");
 
 	let gemThree = Math.floor(Math.random() * 12) + 1;
 	console.log("Gem 3: " + gemThree);
-	$("#img3").html("<img src=" + "./assets/images/bluecrystal.jpg" + " value=" + gemThree + "/>");
+	$("#img3").html("<img src=" + "./assets/images/bluecrystal2.png" + " value=" + gemThree + ">");
 
 	let gemFour = Math.floor(Math.random() * 12) + 1;
 	console.log("Gem 4: " + gemFour);
-	$("#img4").html("<img src=" + "./assets/images/yellowcrystal.jpeg" + " value=" + gemFour + "/>");
+	$("#img4").html("<img src=" + "./assets/images/yellowcrystal2.png" + " value=" + gemFour + ">");
 
 
 

@@ -1,5 +1,6 @@
 # Unit-4-Game
 Crystals-Collector Game 
+Check it out! https://kaylagold.github.io/Unit-4-Game/
 
 The player will be given a random number at the start of the game.
 There are four crystals, and by clicking on a crystal, the player will add a 
